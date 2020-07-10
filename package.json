@@ -1,0 +1,20 @@
+{
+  "name": "typescript-ejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jamezaguiar/typescript-ejs.git",
+  "author": "Jamerson Aguiar <jamersonalsilva14@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --transpileOnly --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "ts-node-dev": "^1.0.0-pre.51",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
