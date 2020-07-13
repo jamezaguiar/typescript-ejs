@@ -1,0 +1,96 @@
+.registerBtn {
+  font-weight: 700;
+  color: #05668d;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.registerBtn:hover {
+  color: #045575;
+}
+
+.loginContainer {
+  width: 100vw;
+  height: 96vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 400px;
+  height: 350px;
+
+  padding: 16px;
+
+  background-color: #e9f1f7;
+  border-radius: 8px;
+}
+
+.loginBoxInfo .loginBoxTitle {
+  color: black;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.loginBoxInfo img {
+  margin-bottom: 16px;
+}
+
+.loginBox form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginBox form input {
+  height: 48px;
+
+  font-size: 16px;
+
+  padding: 16px;
+  margin-bottom: 8px;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.loginBox form button {
+  height: 48px;
+
+  font-size: 16px;
+  color: #e9f1f7;
+
+  margin-top: 16px;
+
+  background-color: #05668d;
+
+  border: 0;
+  border-radius: 2px;
+
+  transition: background-color 0.5s;
+}
+
+.loginBox form button:hover {
+  background-color: #00587a;
+}
+
+footer {
+  display: flex;
+}
+
+footer a, p {
+  font-size: 12px;
+  text-decoration: none;
+  color: #e9f1f7;
+  margin-left: 8px;
+}
